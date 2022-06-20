@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <main class="container">
     <NavBar />
     <HeaderSection />
     <ServicesSection />
@@ -7,7 +7,7 @@
     <TestimonialsSection />
     <NewsSection />
     <FooterSection />
-  </div>
+  </main>
 </template>
 
 <script>
@@ -31,3 +31,7 @@ export default {
   },
 };
 </script>
+
+<style lang="scss">
+@import "./assets/styles/main.scss";
+</style>

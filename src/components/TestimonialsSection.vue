@@ -1,5 +1,7 @@
 <template>
-  <section>Testimonials Section</section>
+  <section class="testimonials">Testimonials Section</section>
 </template>
 
-<style lang="scss"></style>
+<style lang="scss">
+@import "../assets/styles/testimonials.scss";
+</style>

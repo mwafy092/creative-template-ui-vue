@@ -1,5 +1,7 @@
 <template>
-  <section>News</section>
+  <section class="news">News</section>
 </template>
 
-<style lang="scss"></style>
+<style lang="scss">
+@import "../assets/styles/news.scss";
+</style>

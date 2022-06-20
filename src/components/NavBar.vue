@@ -1,5 +1,7 @@
 <template>
-  <section>NavBar</section>
+  <section class="navbar">NavBar</section>
 </template>
 
-<style lang="scss"></style>
+<style lang="scss">
+@import "../assets/styles/navbar.scss";
+</style>

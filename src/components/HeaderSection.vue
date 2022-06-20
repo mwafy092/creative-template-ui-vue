@@ -1,5 +1,7 @@
 <template>
-  <section>Header</section>
+  <section class="header">Header</section>
 </template>
 
-<style lang="scss"></style>
+<style lang="scss">
+@import "../assets/styles/header.scss";
+</style>

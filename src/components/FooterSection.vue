@@ -1,5 +1,7 @@
 <template>
-  <section>Footer</section>
+  <section class="footer">Footer</section>
 </template>
 
-<style lang="scss"></style>
+<style lang="scss">
+@import "../assets/styles/footer.scss";
+</style>

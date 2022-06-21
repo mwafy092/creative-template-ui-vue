@@ -44,5 +44,77 @@
       ],
       "icon": "lab.svg"
     }
+  ],
+  "portfolio": [
+    {
+      "id": 0,
+      "name": "TOPPERS OF HACKNEY",
+      "type": "Design / Wallpaper",
+      "category": "design",
+      "img": "img01.png"
+    },
+    {
+      "id": 1,
+      "name": "FULL BRANDING",
+      "type": "Design",
+      "category": "design",
+      "img": "img09.png"
+    },
+    {
+      "id": 2,
+      "name": "ABSOLUT VODKA",
+      "type": "Photography",
+      "category": "Photography",
+      "img": "img02.png"
+    },
+    {
+      "id": 3,
+      "name": "T-SHIRT DESIGN",
+      "type": "Illustration",
+      "category": "Illustration",
+      "img": "img05.png"
+    },
+    {
+      "id": 4,
+      "name": "PERSONAL PROJECT",
+      "type": "Photography",
+      "category": "Photography",
+      "img": "img04.png"
+    },
+    {
+      "id": 5,
+      "name": "ROMANCE HERO",
+      "type": "Photography",
+      "category": "Photography",
+      "img": "img06.png"
+    },
+    {
+      "id": 6,
+      "name": "BOROUGE",
+      "type": "Illustration",
+      "category": "Illustration",
+      "img": "img08.png"
+    },
+    {
+      "id": 7,
+      "name": "CREATIVE MIND",
+      "type": "Illustration",
+      "category": "Illustration",
+      "img": "img03.png"
+    },
+    {
+      "id": 8,
+      "name": "BIRD ILLUSTRATION",
+      "type": "Wallpaper",
+      "category": "Wallpaper",
+      "img": "img05.png"
+    },
+    {
+      "id": 9,
+      "name": "APS ATTACK MAGAZINE",
+      "type": "Photography",
+      "category": "Photography",
+      "img": "img07.png"
+    }
   ]
 }

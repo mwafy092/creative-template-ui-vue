@@ -27,7 +27,7 @@
       </li>
     </ul>
     <div class="navbar__search">
-      <img src="../assets/images/search-icon.svg" alt="search images" />
+      <img src="../assets/icons/search-icon.svg" alt="search images" />
     </div>
   </section>
 </template>

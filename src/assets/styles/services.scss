@@ -1,9 +1,98 @@
 .services {
-  background-color: #ccc;
   width: 100%;
-  height: 600px;
-  font-size: 40px;
+  background-color: #ddd;
+  height: 660px;
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
+  .services__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .services__chunk {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+      height: 420px;
+      width: 270px;
+      cursor: pointer;
+
+      &:hover > .services__chunk__icon {
+        background-color: #5cc8c5;
+        transition: all 0.5s ease-in-out;
+      }
+      &:hover {
+        border: 1px solid #fff;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px,
+          rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+        transition: all 0.2s ease-in-out;
+      }
+      .services__chunk__icon {
+        width: 110px;
+        height: 110px;
+        background-color: #fff;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 40px;
+        img {
+          width: 36px;
+        }
+      }
+      .services__chunk__title {
+        font-size: 15px;
+        color: #444444;
+        margin-bottom: 20px;
+      }
+      .services__chunk__features {
+        text-align: center;
+        li {
+          font-size: 13px;
+          color: #686868;
+          list-style: none;
+          margin-bottom: 5px;
+        }
+      }
+    }
+  }
+  .services__buttons {
+    display: flex;
+    position: relative;
+    button:nth-child(1) {
+      background-color: #444444;
+    }
+    button:nth-child(3) {
+      background-color: #5cc8c5;
+    }
+    button {
+      width: 150px;
+      height: 45px;
+      border: none;
+      color: #fff;
+      font-size: 12px;
+      cursor: pointer;
+      margin-top: 80px;
+      &:hover {
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
+          rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+        transition: all 0.5 ease-in-out;
+      }
+    }
+    .services__buttons__sep {
+      position: absolute;
+      left: 133px;
+      bottom: 7px;
+      background-color: #000000;
+      color: #fff;
+      padding: 8px;
+      border-radius: 50%;
+      font-size: 12px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
 }

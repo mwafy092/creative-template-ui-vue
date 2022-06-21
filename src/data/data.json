@@ -1,0 +1,48 @@
+{
+  "services": [
+    {
+      "title": "CREATIVITY DESIGN",
+      "features": [
+        "Interactive Animations",
+        "Media Management",
+        "Quality Assurance",
+        "E-Commerce Solutions",
+        "Community Management"
+      ],
+      "icon": "pencil.svg"
+    },
+    {
+      "title": "STRATEGY DESIGN",
+      "features": [
+        "Interactive Animations",
+        "Media Management",
+        "Quality Assurance",
+        "E-Commerce Solutions",
+        "Community Management"
+      ],
+      "icon": "light.png"
+    },
+    {
+      "title": "ANALYTICS & REPORTING",
+      "features": [
+        "Interactive Animations",
+        "Media Management",
+        "Quality Assurance",
+        "E-Commerce Solutions",
+        "Community Management"
+      ],
+      "icon": "controller.svg"
+    },
+    {
+      "title": "BRAND EXPERIENCE",
+      "features": [
+        "Interactive Animations",
+        "Media Management",
+        "Quality Assurance",
+        "E-Commerce Solutions",
+        "Community Management"
+      ],
+      "icon": "lab.svg"
+    }
+  ]
+}

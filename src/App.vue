@@ -1,5 +1,5 @@
 <template>
-  <main class="container">
+  <main class="main__container">
     <NavBar />
     <HeaderSection />
     <ServicesSection />

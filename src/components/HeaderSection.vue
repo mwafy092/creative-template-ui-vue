@@ -4,6 +4,7 @@
       :navigation="true"
       :modules="modules"
       class="mySwiper header--swiper"
+      :loop="true"
     >
       <swiper-slide class="header--swiper__slide">
         <img src="../assets/images/road-img.jpeg" />

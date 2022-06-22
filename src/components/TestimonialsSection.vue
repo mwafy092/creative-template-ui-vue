@@ -4,6 +4,7 @@
       :navigation="true"
       :modules="modules"
       class="mySwiper testimonials__swiper"
+      :loop="true"
     >
       <swiper-slide class="testimonials__swiper__slide">
         <p class="testimonials__title">TESTIMONIALS</p>

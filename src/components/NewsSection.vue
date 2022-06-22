@@ -1,5 +1,10 @@
 <template>
-  <section class="news">News</section>
+  <section class="news">
+    <div class="news__text">
+      <p>We Are Hiring A Creative Web Developer</p>
+      <img src="icons/right-arrow.png" />
+    </div>
+  </section>
 </template>
 
 <style lang="scss">

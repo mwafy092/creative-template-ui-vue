@@ -5,6 +5,20 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 40px;
+  font-size: 22px;
   color: #fff;
+  .news__text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img {
+      margin: 0 20px;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .news {
+    font-size: 18px;
+  }
 }

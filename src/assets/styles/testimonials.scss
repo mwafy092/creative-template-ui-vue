@@ -106,3 +106,12 @@
     }
   }
 }
+
+@media screen and (max-width: 768px) {
+  .testimonials {
+    padding: 40px 10px;
+    .testimonials__swiper {
+      width: 100%;
+    }
+  }
+}

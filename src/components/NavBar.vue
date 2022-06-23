@@ -16,7 +16,13 @@
         <a href="#">About</a>
       </li>
       <li>
-        <a href="#">Portfolio</a>
+        <a href="#" @click="dropDownMenu">Portfolio</a>
+        <div class="navbar__dropdown">
+          <p>Illustration</p>
+          <p>Photography</p>
+          <p>Design</p>
+          <p>Wallpaper</p>
+        </div>
       </li>
       <li>
         <a href="#">Blog</a>
@@ -49,6 +55,12 @@
 <script>
 export default {
   methods: {
+    dropDownMenu() {
+      console.log("clicked");
+      document
+        .querySelector(".navbar__dropdown")
+        .classList.toggle("navbar__dropdown--active");
+    },
     setSearch() {
       document
         .querySelector(".navbar__search__popup")

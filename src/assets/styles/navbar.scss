@@ -34,6 +34,33 @@
       text-transform: uppercase;
       padding: 0;
       margin: 0;
+      position: relative;
+      .navbar__dropdown--active {
+        display: flex !important;
+      }
+      .navbar__dropdown {
+        background-color: #fff;
+        padding: 10px;
+        position: absolute;
+        height: 150px;
+        display: none;
+        flex-direction: column;
+        justify-content: space-around;
+        font-size: 10px;
+        color: #999;
+        width: 150px;
+        border: 1px solid #ddd;
+        top: 40px;
+        p {
+          border-bottom: 1px solid #ddd;
+          padding: 5px 0;
+          &:hover {
+            color: #5cc8c5;
+            cursor: pointer;
+            transition: all 0.3s ease-in-out;
+          }
+        }
+      }
       a {
         text-decoration: none;
         color: #999999;
@@ -125,7 +152,7 @@
     .navbar__search {
       .navbar__search__popup {
         right: 80px;
-        top: 81px;
+        top: 80px;
         border-radius: 0 10px 40px 0;
         transform: translateX(-10%);
         transition: transform 0.5s ease-in;

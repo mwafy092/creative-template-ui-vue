@@ -184,6 +184,10 @@
           opacity: 0;
         }
       }
+      .navbar__dropdown {
+        left: -160px;
+        top: 10px;
+      }
     }
     .navbar__links--active {
       transform: translateX(0%);

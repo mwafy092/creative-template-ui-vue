@@ -126,6 +126,10 @@
       border-bottom: 1px solid #373737;
       width: 150px;
       padding: 8px 0;
+      cursor: pointer;
+      &:hover {
+        color: #ddd;
+      }
     }
   }
 }
@@ -164,11 +168,9 @@
     }
   }
 }
-@media screen and(max-width:500px) {
+@media screen and(max-width:768px) {
   .footer {
-    justify-content: space-around;
-    grid-template-columns: 1fr;
-    justify-content: flex-start;
+    padding: 40px 0;
     .footer__contact {
       width: 100vw;
       max-width: 400px;

@@ -39,6 +39,7 @@
         display: flex !important;
       }
       .navbar__dropdown {
+        z-index: 9999999999;
         background-color: #fff;
         padding: 10px;
         position: absolute;
@@ -50,7 +51,7 @@
         color: #999;
         width: 150px;
         border: 1px solid #ddd;
-        top: 40px;
+        top: 35px;
         p {
           border-bottom: 1px solid #ddd;
           padding: 5px 0;

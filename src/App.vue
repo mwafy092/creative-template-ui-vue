@@ -35,12 +35,7 @@ export default {
 <style lang="scss">
 @import "./assets/styles/main.scss";
 @font-face {
-  font-family: "Roboto";
-  src: local("Roboto"), url(./fonts/Roboto-Medium.ttf) format("truetype");
-}
-@font-face {
-  font-family: "Roboto-Regular";
-  src: local("Roboto-Regular"),
-    url(./fonts/Roboto-Regular.ttf) format("truetype");
+  font-family: "openSans";
+  src: local("openSans"), url(./fonts/open-sans.ttf) format("truetype");
 }
 </style>

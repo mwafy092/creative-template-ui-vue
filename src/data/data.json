@@ -116,5 +116,29 @@
       "category": "Photography",
       "img": "img07.png"
     }
-  ]
+  ],
+  "footer": {
+    "flicker": [
+      "flicker01",
+      "flicker02",
+      "flicker03",
+      "flicker04",
+      "flicker05",
+      "flicker06",
+      "flicker07",
+      "flicker08",
+      "flicker09",
+      "flicker10",
+      "flicker11",
+      "flicker12"
+    ],
+    "social": [
+      "facebook.png",
+      "twitter.png",
+      "behance.png",
+      "dribble.png",
+      "flickr.png",
+      "wifi.png"
+    ]
+  }
 }

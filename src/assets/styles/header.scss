@@ -93,7 +93,7 @@
   .header--swiper__card__head {
     font-size: 40px;
     margin-bottom: 60px;
-    font-weight: bold;
+    font-weight: 600;
   }
   .header--swiper__card__text {
     font-size: 20px;
@@ -122,6 +122,25 @@
       background-color: transparent;
       margin: 0 10px;
       cursor: pointer;
+    }
+  }
+}
+
+@media screen and(max-width:768px) {
+  .header--swiper__card {
+    .header--swiper__card__head {
+      font-size: 20px;
+      margin-bottom: 60px;
+      font-weight: 600;
+    }
+    .header--swiper__card__text {
+      font-size: 16px;
+    }
+    .header--swiper__card__buttons {
+      button {
+        font-size: 12px;
+        width: 100px;
+      }
     }
   }
 }

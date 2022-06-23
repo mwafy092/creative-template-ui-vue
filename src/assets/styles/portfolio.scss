@@ -21,6 +21,10 @@
   }
   .portfolio__tabs {
     margin: 40px 0 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
     .portfolio__tabs--active {
       color: #5cc8c5;
       border: 1px solid #5cc8c5;

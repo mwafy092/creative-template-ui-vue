@@ -164,3 +164,22 @@
     }
   }
 }
+@media screen and(max-width:500px) {
+  .footer {
+    justify-content: space-around;
+    grid-template-columns: 1fr;
+    justify-content: flex-start;
+    .footer__contact {
+      width: 100vw;
+      max-width: 400px;
+    }
+    .footer__flicker {
+      width: 100vw;
+      max-width: 300px;
+    }
+    .footer__tweets {
+      width: 100vw;
+      max-width: 400px;
+    }
+  }
+}

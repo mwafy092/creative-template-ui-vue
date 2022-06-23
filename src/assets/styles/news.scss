@@ -7,18 +7,19 @@
   align-items: center;
   font-size: 22px;
   color: #fff;
+  padding: 10px;
   .news__text {
     display: flex;
     justify-content: center;
     align-items: center;
     img {
-      margin: 0 20px;
+      margin: 0 10px;
     }
   }
 }
 
 @media screen and (max-width: 768px) {
   .news {
-    font-size: 18px;
+    font-size: 16px;
   }
 }

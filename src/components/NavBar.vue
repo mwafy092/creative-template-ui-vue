@@ -16,7 +16,9 @@
         <a href="#">About</a>
       </li>
       <li>
-        <a href="#" @click="dropDownMenu">Portfolio</a>
+        <a href="#" @click="dropDownMenu" class="navbar__dropdown__toggle"
+          >Portfolio</a
+        >
         <div class="navbar__dropdown">
           <p>Illustration</p>
           <p>Photography</p>
@@ -53,6 +55,15 @@
 </template>
 
 <script>
+window.addEventListener("click", (e) => {
+  let dropdown = document.querySelector(".navbar__dropdown");
+  if (
+    !e.target.classList.contains("navbar__dropdown") &&
+    !e.target.classList.contains("navbar__dropdown__toggle")
+  ) {
+    dropdown.classList.remove("navbar__dropdown--active");
+  }
+});
 export default {
   methods: {
     dropDownMenu() {

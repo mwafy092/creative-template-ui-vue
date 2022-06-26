@@ -45,6 +45,7 @@
         src="/icons/search-icon.svg"
         alt="search images"
         @click="setSearch"
+        class="navbar__search__icon"
       />
       <form class="navbar__search__popup">
         <input type="text" placeholder="search here" />
@@ -57,11 +58,29 @@
 <script>
 window.addEventListener("click", (e) => {
   let dropdown = document.querySelector(".navbar__dropdown");
+  console.log(e.target);
   if (
     !e.target.classList.contains("navbar__dropdown") &&
     !e.target.classList.contains("navbar__dropdown__toggle")
   ) {
     dropdown.classList.remove("navbar__dropdown--active");
+  }
+  if (
+    !e.target.classList.contains("navbar__burger") &&
+    !e.target.classList.contains("navbar__links")
+  ) {
+    document
+      .querySelector(".navbar__links")
+      .classList.remove("navbar__links--active");
+  }
+  if (
+    !e.target.classList.contains("navbar__search") &&
+    !e.target.classList.contains("navbar__search__popup") &&
+    !e.target.classList.contains("navbar__search__icon")
+  ) {
+    document
+      .querySelector(".navbar__search__popup")
+      .classList.remove("navbar__popup--active");
   }
 });
 export default {

@@ -40,11 +40,10 @@
       </li>
     </ul>
 
-    <div class="navbar__search">
+    <div class="navbar__search" @click="setSearch">
       <img
         src="/icons/search-icon.svg"
         alt="search images"
-        @click="setSearch"
         class="navbar__search__icon"
       />
       <form class="navbar__search__popup">
@@ -65,14 +64,14 @@ window.addEventListener("click", (e) => {
   ) {
     dropdown.classList.remove("navbar__dropdown--active");
   }
-  if (
-    !e.target.classList.contains("navbar__burger") &&
-    !e.target.classList.contains("navbar__links")
-  ) {
-    document
-      .querySelector(".navbar__links")
-      .classList.remove("navbar__links--active");
-  }
+  // if (
+  //   !e.target.classList.contains("navbar__burger") &&
+  //   !e.target.classList.contains("navbar__links")
+  // ) {
+  //   document
+  //     .querySelector(".navbar__links")
+  //     .classList.remove("navbar__links--active");
+  // }
   if (
     !e.target.classList.contains("navbar__search") &&
     !e.target.classList.contains("navbar__search__popup") &&

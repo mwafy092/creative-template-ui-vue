@@ -64,14 +64,7 @@ window.addEventListener("click", (e) => {
   ) {
     dropdown.classList.remove("navbar__dropdown--active");
   }
-  // if (
-  //   !e.target.classList.contains("navbar__burger") &&
-  //   !e.target.classList.contains("navbar__links")
-  // ) {
-  //   document
-  //     .querySelector(".navbar__links")
-  //     .classList.remove("navbar__links--active");
-  // }
+
   if (
     !e.target.classList.contains("navbar__search") &&
     !e.target.classList.contains("navbar__search__popup") &&
@@ -105,7 +98,7 @@ export default {
           link.style.animation = "";
         } else {
           link.style.animation = `navbarLinkFade 0.9s ease forwards ${
-            index / 7 + 0.5
+            index / 7 + 0.3
           }s`;
         }
       });
